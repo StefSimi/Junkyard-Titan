@@ -433,7 +433,7 @@ void setup() {
   lcd.setCursor(ONE, ONE);
   lcd.print("Junkyard Titan");
 
-  delay(TWO_SECONDS);
+  delay(TWO_SECONDS); //We want our the player to see our welcome message for 2 seconds, so there is no real reason to not use delay()
   lcd.clear();
 
 
@@ -1780,7 +1780,7 @@ void displayEndgameMessage() {  //When the game ends, a message will be displaye
   lcd.setCursor(SIX, ONE);
   lcd.print(score);
 }
-void scrollLcd(char str[]) {  //Function used to scroll only one line of the lcd display
+void scrollLcd(char str[]) {  //Function used to scroll only one line of the lcd display (taken from here: https://www.youtube.com/watch?v=0TIbVA_J_vM)
   if (millis() - scrollMillis > scrollDelay) {
     Serial.println("Test");
     if (iCursor == (strlen(str) - 1)) {
