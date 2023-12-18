@@ -154,7 +154,7 @@ randomness, though.<br>
 <summary><h2>Showcase </h2></summary>
 
 ### [Code](https://github.com/StefSimi/Junkyard-Titan/blob/main/Junkyard%20Titan.ino)
-### [Video]()
+### [Video](https://www.youtube.com/watch?v=XEKqY0s9G2o)
 
 
 ### [Fritzing Schematic](https://github.com/StefSimi/Junkyard-Titan/blob/main/Junkyard%20Titan.fzz)
